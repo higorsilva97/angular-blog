@@ -1,0 +1,17 @@
+header{
+    display: flex;
+    justify-content: center;
+    background-color: #94BE1Fed;
+    width: 100%;
+    height: 100px;
+       
+}
+
+
+.container__articles{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
