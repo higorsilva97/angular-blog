@@ -1,0 +1,34 @@
+.container__footer{
+    display: flex;
+    background-color: #242F37;
+    width: 100%;
+    height: 200px;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    
+}
+.social-midia{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+    height: 48px; 
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    margin-top: 50px;
+    background-color: #242F37;
+    
+}
+
+.social-midia > li { 
+    margin: 0 18px;
+}
+
+.social-midia > li > a { 
+    font-size: 18px;
+    background-color: #242F37;
+    color: white;
+}
+
+

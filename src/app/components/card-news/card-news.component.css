@@ -5,8 +5,7 @@
     background-color: #ffffff; /* Cor de fundo da div */
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding-top: 20px;
-    padding-left: 20px;
-    
+    padding-left: 20px; 
 }
 .news-title > h1{
     font-weight: 900;

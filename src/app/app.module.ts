@@ -11,6 +11,7 @@ import { HomeComponent } from './pages/home/home.component';
 import { BlogsComponent } from './pages/blogs/blogs.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
 import { CardOthersComponent } from './components/card-others/card-others.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { CardOthersComponent } from './components/card-others/card-others.compon
     HomeComponent,
     BlogsComponent,
     CardNewsComponent,
-    CardOthersComponent
+    CardOthersComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
