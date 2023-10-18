@@ -1,0 +1,32 @@
+.blog__container-news{
+    height: 200px; 
+    margin-top: 8px;
+    width: 95%;
+    background-color: #ffffff; /* Cor de fundo da div */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    padding-top: 20px;
+    padding-left: 20px;
+    
+}
+.news-title > h1{
+    font-weight: 900;
+    background-color: rgb(255, 255, 255);
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    margin-top: 20px;
+}
+.author > img{
+    width: 40px; 
+    margin-right: 10px;
+}
+
+.blog__container-news > p {
+    font-size: 10px;
+    color: #c0c0c0;
+    background-color: #ffffff;
+    padding-left: 50px;
+}

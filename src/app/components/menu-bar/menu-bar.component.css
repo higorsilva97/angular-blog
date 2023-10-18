@@ -5,7 +5,6 @@
     width: 100%;
     height: 100px;
     display: flex;
-    justify-content: center;
     align-items: center;  
     background-color: #94be1f;
 }
@@ -14,19 +13,20 @@
     display: flex;
     list-style: none;
     flex-direction: row;
-    margin-right: 100px;  
     background-color:transparent;
-   
-    
+    margin-right: 100px;
+     
 }
 
 .container__menu-bar > ul > li {
     margin-right: 100px;
-    font-weight: 800;
+    font-weight: 800;  
+    
 }
 
 .container__menu-bar > ul > li > a {
     background-color: #94be1f;
+    
     
 }
 
@@ -34,6 +34,7 @@
     background-color: transparent;
     font-size: 50px;
     font-weight: 800;
+    margin-left: 300px;
 }
 
 

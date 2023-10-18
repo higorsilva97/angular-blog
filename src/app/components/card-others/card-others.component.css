@@ -1,0 +1,40 @@
+.container__card-others{
+    background-color: #ffffff; /* Cor de fundo da div */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    height: 120px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.img__card-others{
+    width: 200px;
+    height: 120px;
+    margin-right: 20px;
+
+}
+
+.img__card-others > img{
+   width: 100px;
+   height: 100px;
+   margin-top: 10px;
+   margin-left: 10px;
+}
+
+.text__container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    
+}
+
+.text__container > h4{
+    font-weight: 700;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+.text__container > p {
+    font-size: 14px;
+    font-weight: 900;
+}
+

@@ -1,0 +1,49 @@
+.container__blogs{
+    margin-top: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.blog__section-title{
+    height: 100px;
+    background-color: #242F37;
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+    
+}
+
+.blog__section-title > h1{
+    
+    display: inline;
+    background-color: #242F37;
+    color: white;
+    margin-left: 12px;  
+    font-size: 32px;
+    padding: 0;
+}
+
+.icon-title{
+    width: 18px;
+    height: 28px;
+    background-color: #94B925;
+    font-weight: 800;
+    
+}
+
+.blog__body{
+    display: flex;
+    width: 65%;
+    margin-left: 300px;
+    margin-top: 32px;
+    
+}
+
+.blog__container-others{
+    height: 100%;
+    width: 25%; 
+    margin-top: 8px;  
+}
