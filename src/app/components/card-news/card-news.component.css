@@ -1,11 +1,16 @@
 .blog__container-news{
+    background-color: #ffffff;
     height: 200px; 
     margin-top: 8px;
     width: 95%;
-    background-color: #ffffff; /* Cor de fundo da div */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     padding-top: 20px;
     padding-left: 20px; 
+    transition: 0.5s;
+}
+
+.blog__container-news:hover{
+    background-color: #ffffff; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
 }
 .news-title > h1{
     font-weight: 900;

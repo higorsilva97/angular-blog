@@ -1,16 +1,20 @@
 .container__card-others{
-    background-color: #ffffff; /* Cor de fundo da div */
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     height: 120px;
     display: flex;
     flex-direction: row;
-    margin-top: 10px;
+    margin-top: 10px; 
+    transition: 0.3s;
+}
+
+.container__card-others:hover{
+    background-color: #ffffff; 
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    
 }
 .img__card-others{
     width: 200px;
     height: 120px;
     margin-right: 20px;
-
 }
 
 .img__card-others > img{

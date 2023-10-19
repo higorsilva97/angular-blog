@@ -6,6 +6,7 @@
     margin-bottom: 30px;
     margin-left: 20px;
     position: relative;
+    background-color: #ffffff; 
 }
 
 .container__small-card:hover{
@@ -16,6 +17,8 @@
 .small-card__photo {
     margin-right: 20px; 
     position: relative;
+    width: 156px;
+    height: 156px;
 }
 
 .small-card__photo::after{
@@ -35,8 +38,9 @@
 
 
 .small-card__photo > img {
-    width: 156px;
-    height: 156px;
+    width: 100%;
+    height: 100%;
+    min-width: 156px;
 }
 
 .small-card__title {
