@@ -32,9 +32,6 @@
     transition: background-color 0.3s;
 }
 
-.small-card__photo:hover::after{
-    background-color: rgba(154, 207, 8, 0.5);
-}
 
 
 .small-card__photo > img {

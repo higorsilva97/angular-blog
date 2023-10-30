@@ -7,7 +7,8 @@
     flex-direction: column;
     align-items: flex-start;
     justify-content: flex-start;
-
+    background-color: #fff;
+    margin-bottom: 50px;  
 }
 
 .big-card__title > h1{
@@ -16,18 +17,21 @@
     font-weight: 900;
     margin-top: 20px;
     text-transform: uppercase;
+    background-color: #fff;
 }
 
 .big-card__description {
     margin-top: 20px;
+    background-color: #ffffff;
 }
 
 .big-card__description > p > a{
     color: gray;
     font-size: 20px;
+  
 }
 
 .big-card__photo > img {
     width: 100%;
-    min-width: 600px;
+    min-width: 700px;
 }

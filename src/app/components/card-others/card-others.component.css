@@ -1,5 +1,6 @@
 .container__card-others{
     height: 120px;
+    min-height: 120px;
     display: flex;
     flex-direction: row;
     margin-top: 10px; 
@@ -9,12 +10,12 @@
 .container__card-others:hover{
     background-color: #ffffff; 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    
+    border-bottom: 3px solid #94BE1F;
 }
 .img__card-others{
-    width: 200px;
-    height: 120px;
-    margin-right: 20px;
+    width: 120px;
+    height: 117px;
+    margin-right: 10px;
 }
 
 .img__card-others > img{
@@ -26,19 +27,22 @@
 
 .text__container{
     display: flex;
+    width: 200px;
     flex-direction: column;
-    margin-top: 10px;
-    
+    margin-top: 10px; 
 }
 
 .text__container > h4{
     font-weight: 700;
     font-size: 12px;
     margin-bottom: 10px;
+    
 }
+
 
 .text__container > p {
     font-size: 14px;
     font-weight: 900;
+    text-transform: uppercase;
 }
 
