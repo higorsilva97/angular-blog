@@ -42,4 +42,4 @@ testem.log
 Thumbs.db
 
 # Arquivos de ambiente específicos de ambiente
-src/environments/environment.ts
+/environments/environment.ts
