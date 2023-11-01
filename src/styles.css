@@ -12,6 +12,12 @@
     font-family:  'Barlow', sans-serif;
 }
 
+:root{
+    --cor-primaria: #1E4C9A;
+    --cor-secundaria: #fff;
+    --cinza-claro: #F3F3F3
+}
+
 a{
     text-decoration: none;
 }

@@ -10,27 +10,27 @@
 
 .blog__section-title{
     height: 100px;
-    background-color: #242F37;
+    background-color: var(--cinza-claro);
     display: flex;
     align-items: center;
-    padding-left: 300px;
-    
+    padding-left: 300px; 
 }
 
 .blog__section-title > h1{
     
     display: inline;
-    background-color: #242F37;
-    color: white;
+    background-color: var(--cinza-claro);
+    color: var(--cor-secundaria);
     margin-left: 12px;  
     font-size: 32px;
     padding: 0;
+    color: var(--cor-primaria);
 }
 
 .icon-title{
     width: 18px;
     height: 28px;
-    background-color: #94B925;
+    background-color: var(--cor-primaria);
     font-weight: 800;
     
 }

@@ -7,6 +7,7 @@
     margin-left: 20px;
     position: relative;
     background-color: #ffffff; 
+    border: 1px solid red;
 }
 
 .container__small-card:hover{
@@ -35,8 +36,8 @@
 
 
 .small-card__photo > img {
-    width: 100%;
-    height: 100%;
+    width: 156px;
+    height: 156px;
     min-width: 156px;
 }
 

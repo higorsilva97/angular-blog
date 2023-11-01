@@ -1,12 +1,12 @@
-<div class="container__small-card">
+<div class="container__small-card" *ngFor="let article of newsList">
     <div class="small-card__photo">
-        <img src={{photoCover}} >
+        <img src={{article.urlToImage}}>
     </div>
    
     <div class="small-card__title">
-        <h4><a href="#"> {{subtitle}}</a></h4>
+        <h4><a href="#"> {{article.source.name}}</a></h4>
         <p>
-            <a href="#">{{title}}</a>
+            <a href="#">{{article.title}}</a>
         </p>
     </div>
 </div>

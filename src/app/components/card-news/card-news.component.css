@@ -1,15 +1,17 @@
 .blog__container-news{
     background-color: #ffffff;
     height: 200px; 
-    height: 200px;
-    margin-top: 8px;
+    height: fit-content;
+    min-height: 240px;
+    margin-top: 20px;
     width: 850px;
     min-width: 850;
     padding-top: 20px;
     padding-left: 20px; 
     transition: 0.5s;
-    border: 1px solid rgb(248, 248, 248);
+    border: 1px solid var(--cinza-claro);
     margin-right: 15px;
+   
 }
 
 .blog__container-news:hover{

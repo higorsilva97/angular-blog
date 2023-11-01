@@ -1,16 +1,13 @@
-<div class="container__big-card">
+<div class="container__big-card" *ngIf="newsList.length > 0" >
     <div class="big-card__photo">
-        <img src={{photoCover}} height="400px" >
-        
+        <img [src]="newsList[numNews].urlToImage" [alt]="newsList[numNews].title" height="400px">
     </div>
     <div class="big-card__title">
-        <h1><a href="#"> {{cardTitle}}</a></h1>
+        <h2><a [href]="'#'" [title]="newsList[numNews].title">{{newsList[numNews].title}}</a></h2>
     </div>
     <div class="big-card__description">
         <p>
-            <a href="#">
-                {{cardDescription}}
-            </a>
+            <a [href]="'#'" [title]="newsList[numNews].description">{{newsList[numNews].description}}</a>
         </p>
     </div>
 </div>

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NewsServiceService } from 'src/app/services/news.service.service';
 
 @Component({
   selector: 'app-small-card',
@@ -6,18 +7,17 @@ import { Component, Input, OnInit } from '@angular/core';
   styleUrls: ['./small-card.component.css',]
 })
 export class SmallCardComponent implements OnInit {
-  @Input()
-  photoCover:string = ""
 
-  @Input()
-  title: string = "ARTETA ENTRA PRA GRUPO APOS VENCER O CITY ARTETA ENTRA PRA GRUPO APOS VENCER O CITY ARTETA ENTRA PRA GRUPO APOS VENCER O CITY"
+  newsList: any[] = [];
 
-  @Input()
-  subtitle:string = "FUTEBOL"
-
-  constructor() { }
+  constructor(private newsServiceService: NewsServiceService ) { }
 
   ngOnInit(): void {
+
+    this.newsServiceService.getNews().subscribe(data => {
+      this.newsList = data.articles;
+      console.log("Small-card-list",this.newsList);
+    })
   }
 
 }

@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NewsServiceService } from 'src/app/services/news.service.service';
 
 @Component({
   selector: 'app-card-news',
@@ -7,16 +8,19 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardNewsComponent implements OnInit {
 
-  @Input()
-  title:string = ""
-  @Input()
-  author:string = ""
-  @Input()
-  data:string = ""
+  newsData:any;
+  newsList: any[] = []; // Inicialize uma matriz vazia para as notícias
 
-  constructor() { }
+  constructor(private newsServiceService: NewsServiceService) { }
 
   ngOnInit(): void {
+      
+    this.newsServiceService.getNews().subscribe(data => {
+      this.newsData = data;
+      this.newsList = data.articles;
+      console.log("Lista", this.newsList)
+    })
+
   }
 
 }

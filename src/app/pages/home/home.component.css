@@ -1,8 +1,30 @@
 
 .container__articles{
-    margin-top: 150px;
+    margin-top: 100px;
     display: flex;
     flex-direction: row;
     justify-content: center;  
 }
 
+.articles__others{
+    height: fit-content;
+    margin-left: 10px;
+}
+
+.anuncio{
+    height: 400px;
+    width: 600px;
+    margin-left: 10px;
+    background-color: var(--cinza-claro);
+    margin-bottom: 50px;
+}
+
+.scroll{
+    overflow-y: auto;
+    height:700px;  
+}
+
+.scroll::-webkit-scrollbar{
+    overflow-y: auto;
+    display: none; 
+}
