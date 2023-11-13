@@ -1,0 +1,12 @@
+<div class="container__medium-card" *ngFor="let article of newsList.slice(10,17)">
+    <div class="medium-card__photo">
+        <img [src]="article.urlToImage" alt="{{article.title}}">
+    </div>
+   
+    <div class="medium-card__title">
+        <h4>{{article.source.name}}</h4>
+        <p>
+            <a [href]="article.url">{{article.title}}</a>
+        </p>
+    </div>
+</div>
