@@ -1,12 +1,13 @@
-<div class="container__small-card" *ngFor="let article of newsList">
+<div class="container__small-card" *ngFor="let article of newsList.slice(3,7)">
     <div class="small-card__photo">
-        <img src={{article.urlToImage}}>
+        <img [src]="article.urlToImage" alt="{{article.title}}">
     </div>
    
     <div class="small-card__title">
-        <h4><a href="#"> {{article.source.name}}</a></h4>
+        <h4><a [href]="article.source.url">{{article.source.name}}</a></h4>
         <p>
-            <a href="#">{{article.title}}</a>
+            <a [href]="article.url">{{article.title}}</a>
         </p>
     </div>
 </div>
+

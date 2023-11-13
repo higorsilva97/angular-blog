@@ -20,7 +20,7 @@ export class MenuTitleComponent implements OnInit {
 
 
   ngOnInit(): void {
-    let i: number = 1;
+    let i: number = 0;
     
 
     this.newsService.getNews().subscribe(data => {

@@ -3,19 +3,21 @@
     margin-top: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: center;  
+    justify-content: center;
+
 }
 
 .articles__others{
     height: fit-content;
     margin-left: 10px;
+    min-width: 650px;
 }
 
 .anuncio{
     height: 400px;
     width: 600px;
     margin-left: 10px;
-    background-color: var(--cinza-claro);
+    background-color: #f3f3f3;
     margin-bottom: 50px;
 }
 
@@ -28,3 +30,15 @@
     overflow-y: auto;
     display: none; 
 }
+.top{
+    width: 100%;
+    height: 50px;
+    background-color: var(--cor-detalhe);
+    
+ }
+ .bottom{
+    width: 100%;
+    height: 100px;
+    
+ }
+  

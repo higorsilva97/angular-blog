@@ -13,7 +13,7 @@ export class BigCardComponent implements OnInit {
 
   newsData: any;
 
-  numNews: number = 2;
+  numNews: number = 0;
 
 
   constructor(private newsService: NewsServiceService) { }
@@ -21,8 +21,6 @@ export class BigCardComponent implements OnInit {
   ngOnInit(): void {
     this.newsService.getNews().subscribe(data => {
       this.newsData = data.articles;
-      console.log(this.newsData)
-
       this.newsList = data.articles.filter((article:any) => article.urlToImage !== null);
       
      

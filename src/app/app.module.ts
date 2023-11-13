@@ -13,6 +13,7 @@ import { BlogsComponent } from './pages/blogs/blogs.component';
 import { CardNewsComponent } from './components/card-news/card-news.component';
 import { CardOthersComponent } from './components/card-others/card-others.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { MediumCardComponent } from './components/medium-card/medium-card.component';
 
 
 @NgModule({
@@ -26,7 +27,8 @@ import { FooterComponent } from './components/footer/footer.component';
     BlogsComponent,
     CardNewsComponent,
     CardOthersComponent,
-    FooterComponent
+    FooterComponent,
+    MediumCardComponent
   ],
   imports: [
     BrowserModule,

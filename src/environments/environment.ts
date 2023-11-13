@@ -5,7 +5,7 @@
 export const environment = {
   production: false,
   apiKey: "e903e8de665d43069fe18e8ca387ff27",
-  apiUrl: "https://newsapi.org/v2/top-headlines?country=us&apiKey=",
+  apiUrl: "https://newsapi.org/v2/everything?q=technology&apiKey=",
   
 }
 /*
