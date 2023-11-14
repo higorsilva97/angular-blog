@@ -1,4 +1,5 @@
-<div class="blog__container-news" *ngFor="let article of newsList">
+<div>
+<div class="blog__container-news" *ngFor="let article of newsList.slice(0, newsDisplayed)">
     <div class="news-title">
         <h1>{{article.title}}</h1>
     </div>
@@ -7,4 +8,6 @@
         <p>{{article.author}}</p>
     </div>
     <p>{{article.publishedAt}}</p>
+</div>
+<button (click)="loadMoreNews()">Ver Mais</button>
 </div>

@@ -17,13 +17,13 @@
     height: 400px;
     width: 600px;
     margin-left: 10px;
-    background-color: #f3f3f3;
+    background-color: #F7F7F7;
     margin-bottom: 50px;
 }
 
 .scroll{
     overflow-y: auto;
-    height:700px;  
+    height:850px;  
 }
 
 .scroll::-webkit-scrollbar{
@@ -33,12 +33,37 @@
 .top{
     width: 100%;
     height: 50px;
-    background-color: var(--cor-detalhe);
-    
+    background-color: var(--cor-detalhe); 
  }
  .bottom{
     width: 100%;
-    height: 100px;
-    
+    height: 70px;
  }
+
+ .title__others{
+    width: 100%;
+    height: 70px;
+    margin-left: 20px;
+    display: flex;
+    margin-bottom: 32px;
+  }
+  
+  .title__others > p{
+    margin-left: 18px;
+    font-size: 20px;
+    color: var(--cor-texto);
+  }
+  
+  .title__others > p > span{
+    font-weight: 800;
+    font-size: 32px;
+    color: var(--cor-titulo);
+  }
+  
+  #icone{
+    height: 100%;
+    width: 20px;
+    background-color: var(--cor-detalhe);
+  }
+  
   

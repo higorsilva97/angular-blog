@@ -28,7 +28,8 @@ import { MediumCardComponent } from './components/medium-card/medium-card.compon
     CardNewsComponent,
     CardOthersComponent,
     FooterComponent,
-    MediumCardComponent
+    MediumCardComponent,
+    
   ],
   imports: [
     BrowserModule,

@@ -1,9 +1,11 @@
-<div class="container__card-others">
-    <div class="img__card-others">
-        <img src="{{photo}}" alt="">
+
+
+    <div class="container__card-others" *ngFor="let article of newsList.slice(3,7)">
+        <div class="img__card-others">
+            <img [src]="article.urlToImage" alt="{{article.title}}">
+        </div>
+        <div class="text__container">
+            <h4>{{article.source.name}}</h4>
+            <p>{{article.title}}</p>
+        </div>
     </div>
-    <div class="text__container">
-        <h4>{{title}}</h4>
-        <p>{{description}}</p>
-    </div>
-</div>

@@ -9,9 +9,7 @@
     background-color: var(--cor-primaria);
     transition: background-color 0.3s, box-shadow 0.3s;
     border: 2px solid var(--cinza-claro);
-    border-radius: 2px;
-    
-   
+    border-radius: 2px; 
 }
 
 .container__small-card:hover {

@@ -44,8 +44,9 @@
 }
 
 .medium-card__title {
-    
     margin-left: 30px;
+    
+    width: 400px;
 }
 
 .medium-card__title > h4{
@@ -61,6 +62,34 @@
     font-size: 28px;
     text-transform: uppercase;
     font-weight: 800;
-
-
 }
+
+button {
+    background-color: var(--cor-detalhe);
+    color: var(--cor-primaria);
+    width: 250px;
+    height: 50px;
+    font-size: 1.5rem; 
+    border-radius: 5px;
+    margin-top: 60px;
+    margin-left: 30%;
+    border: none; 
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; 
+    outline: none;
+    margin-bottom: 80px;
+}
+
+
+button:focus {
+    box-shadow: 0 0 5px var(--cor-detalhe); 
+}
+
+
+button:hover {
+    background-color: #1254aa; 
+    color: var(--cor-primaria); 
+}
+
+
+

@@ -9,9 +9,16 @@ import { environment } from 'src/environments/environment';
 })
 export class NewsServiceService {
 
-  private apiUrl: string = environment.apiUrl;
+  //urls
+  private apiUrl: string = environment.apiUrl + "everything?q=technology&language=pt&apiKey=";
+  private apiUrlTop: string = environment.apiUrl + "top-headlines?category=technology&apiKey=";
+
+  //key
   private apiKey: string = environment.apiKey;
+
+
   private url: string = `${this.apiUrl}${this.apiKey}`;
+  private urlTop: string =  `${this.apiUrlTop}${this.apiKey}`;
 
   constructor(private httpClient: HttpClient) {
     
@@ -25,6 +32,11 @@ export class NewsServiceService {
   getNews(): Observable<any> {
     console.log(this.url); 
     return this.httpClient.get(this.url).pipe(retry(2));
+  }
+
+  getNewsTopHeadlines():Observable<any> {
+    console.log("URL TOP", this.urlTop); 
+    return this.httpClient.get(this.urlTop).pipe(retry(2));
   }
  
 }

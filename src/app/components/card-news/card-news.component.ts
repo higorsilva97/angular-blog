@@ -8,19 +8,24 @@ import { NewsServiceService } from 'src/app/services/news.service.service';
 })
 export class CardNewsComponent implements OnInit {
 
-  newsData:any;
-  newsList: any[] = []; // Inicialize uma matriz vazia para as notícias
+  newsData: any;
+  newsList: any[] = [];
+  newsDisplayed: number = 5;
 
   constructor(private newsServiceService: NewsServiceService) { }
 
   ngOnInit(): void {
-      
+    this.loadNews();
+  }
+
+  loadNews() {
     this.newsServiceService.getNews().subscribe(data => {
       this.newsData = data;
       this.newsList = data.articles;
-      console.log("Lista", this.newsList)
-    })
-
+    });
   }
 
+  loadMoreNews() {
+    this.newsDisplayed += 5;
+  }
 }

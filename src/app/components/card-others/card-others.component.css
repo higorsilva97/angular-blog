@@ -5,12 +5,13 @@
     flex-direction: row;
     margin-top: 10px; 
     transition: 0.3s;
+    
 }
 
 .container__card-others:hover{
-    background-color: #ffffff; 
+    background-color: var(--cor-primaria); 
     box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    border-bottom: 3px solid #94BE1F;
+    border-bottom: 3px solid var(--cor-detalhe);
 }
 .img__card-others{
     width: 120px;

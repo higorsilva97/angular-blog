@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { NewsServiceService } from 'src/app/services/news.service.service';
 
 @Component({
   selector: 'app-card-others',
@@ -7,18 +8,16 @@ import { Component, Input, OnInit } from '@angular/core';
 })
 export class CardOthersComponent implements OnInit {
 
-  @Input()
-  photo: String = ""
+  newsList: any[] = [];
 
-  @Input()
-  title: String = ""
-
-  @Input()
-  description: String = ""
-
-  constructor() { }
+  constructor(private newsServiceService: NewsServiceService ) { }
 
   ngOnInit(): void {
+
+    this.newsServiceService.getNews().subscribe(data => {
+      this.newsList = data.articles;
+      console.log("card-others-list",this.newsList);
+    })
   }
 
 }

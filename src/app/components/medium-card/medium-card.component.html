@@ -1,4 +1,5 @@
-<div class="container__medium-card" *ngFor="let article of newsList.slice(10,17)">
+<div>
+<div class="container__medium-card" *ngFor="let article of newsList.slice(0,newsDisplayed)">
     <div class="medium-card__photo">
         <img [src]="article.urlToImage" alt="{{article.title}}">
     </div>
@@ -9,4 +10,7 @@
             <a [href]="article.url">{{article.title}}</a>
         </p>
     </div>
+    
+</div>
+<button (click)="loadMoreNews()">Ver Mais</button>
 </div>

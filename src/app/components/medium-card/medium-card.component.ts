@@ -9,15 +9,23 @@ import { NewsServiceService } from 'src/app/services/news.service.service';
 export class MediumCardComponent implements OnInit {
 
   newsList: any[] = [];
+  newsData: any;
+  newsDisplayed: number = 3;
 
   constructor(private newsServiceService: NewsServiceService ) { }
 
   ngOnInit(): void {
-
-    this.newsServiceService.getNews().subscribe(data => {
-      this.newsList = data.articles;
-      console.log("medium-card-list",this.newsList);
-    })
+    this.loadNews();
   }
 
+  loadNews() {
+    this.newsServiceService.getNews().subscribe(data => {
+      this.newsData = data;
+      this.newsList = data.articles;
+    });
+  }
+
+  loadMoreNews() {
+    this.newsDisplayed += 3;
+  }
 }

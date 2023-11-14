@@ -19,5 +19,4 @@ export class SmallCardComponent implements OnInit {
       console.log("Small-card-list",this.newsList);
     })
   }
-
 }

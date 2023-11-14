@@ -7,7 +7,7 @@
     justify-content: flex-start;
     background-color: var(--cor-primaria);
     padding-bottom: 50px;
-    border: 0.5px solid #dbdbdb;
+    border: 0.5px solid var(--cor-borda);
     transition: background-color 0.5s, box-shadow 0.5s;
     border-radius: 2px;
     

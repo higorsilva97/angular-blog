@@ -9,9 +9,11 @@ import { NewsServiceService } from 'src/app/services/news.service.service';
 })
 export class BigCardComponent implements OnInit {
 
-  newsList: any[] = []; // Inicialize uma matriz vazia para as notícias
+  newsList: any[] = []; 
+  newsListTop: any[] = [];
 
   newsData: any;
+  newsDataTop: any;
 
   numNews: number = 0;
 
@@ -22,9 +24,8 @@ export class BigCardComponent implements OnInit {
     this.newsService.getNews().subscribe(data => {
       this.newsData = data.articles;
       this.newsList = data.articles.filter((article:any) => article.urlToImage !== null);
-      
-     
   });
+
   }
 
 }
