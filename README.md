@@ -11,9 +11,8 @@ Bem-vindo ao nosso projeto em desenvolvimento, focado em trazer conteúdo de alt
 
 Estamos entusiasmados com o desenvolvimento deste projeto e ansiosos para compartilhar com você as últimas novidades e insights do universo tecnológico. Agradecemos pela sua visita e apoio contínuo.
 
+
 ## Como Executar o Projeto Localmente
-
-
 
 Para executar o projeto localmente, siga estas etapas:
 
@@ -39,6 +38,22 @@ Para clonar o repositório do projeto, execute o seguinte comando em seu termina
 Após clonar o repositório, navegue até o diretório do projeto:
 
     cd angular-blog
+
+
+## Consumo da News API
+
+Este projeto consome a [News API](https://newsapi.org/) para fornecer notícias tecnológicas atualizadas. Para configurar o serviço de notícias, siga estas etapas:
+
+1. **Obtenha uma Chave da API da News API:**
+   - Acesse [News API](https://newsapi.org/) e registre-se para obter uma chave de API gratuita.
+   - Copie sua chave de API.
+
+2. **Configure a Chave da API no Projeto:**
+   - No diretório do projeto, procure o arquivo de configuração relacionado à News API.
+   - Adicione sua chave de API no local apropriado.
+
+3. **Execute o Projeto:**
+   - Continue com as instruções de execução do projeto mencionadas anteriormente.
 
 **Executando o projeto**
 
