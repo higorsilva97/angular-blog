@@ -29,9 +29,15 @@
 .container__menu-bar > ul > li > a {
     background-color: var(--cor-primaria);
     color: var(--cor-titulo);
-    
-    
+    letter-spacing: 1px;
+    font-size: 16px;
 }
+
+.container__menu-bar > ul > li > a:hover{
+   color: var(--cor-detalhe);
+   
+}
+
 
 .container__menu-bar > ul > a {
     background-color: transparent;
@@ -48,17 +54,17 @@
 }
 
 .menu-list li {
-    margin-right: 20px; /* Ajuste o valor de margem conforme necessário */
+    margin-right: 20px; 
     font-weight: 800;
 }
 
 .menu-list li a {
     text-decoration: none;
     color: var(--cor-secundaria);
-    padding: 5px 10px; /* Adicione espaçamento interno aos links */
+    padding: 5px 10px; 
 }
 
-/* Outros estilos aqui */
+
 
 
 
