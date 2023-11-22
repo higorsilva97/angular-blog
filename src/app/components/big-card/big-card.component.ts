@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NewsServiceService } from 'src/app/services/news.service.service';
+import { NewsMockService } from 'src/app/services/news-mock.service';
+
 
 
 @Component({
@@ -15,15 +17,16 @@ export class BigCardComponent implements OnInit {
   newsData: any;
   newsDataTop: any;
 
-  numNews: number = 0;
+  numNews: number = 1;
 
-
-  constructor(private newsService: NewsServiceService) { }
+ //constructor(private newsServiceService: NewsServiceService) { } - Service API NEWS
+  constructor(private newsMockService: NewsMockService) {}
 
   ngOnInit(): void {
-    this.newsService.getNews().subscribe(data => {
+    this.newsMockService.getNews().subscribe(data => {
       this.newsData = data.articles;
       this.newsList = data.articles.filter((article:any) => article.urlToImage !== null);
+      console.log(this.newsData)
   });
 
   }

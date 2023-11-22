@@ -1,0 +1,91 @@
+
+{
+    "articles": [
+      {
+        "author": "Editor de Tecnologia",
+        "title": "Avanço na Inteligência Artificial: Novo Robô Revoluciona a Indústria",
+        "description": "Um novo robô com capacidades avançadas de aprendizado de máquina está transformando a maneira como as tarefas industriais são realizadas.",
+        "url": "https://exemplo.com/avanco-robotica",
+        "urlToImage": "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-22T14:30:00Z",
+        "source": {
+          "id": "fonte1",
+          "name": "Tech Innovations"
+        }
+      },
+      {
+        "author": "Especialista em Eletrônica",
+        "title": "Nova Placa de Circuito Promete Maior Eficiência Energética",
+        "description": "Uma placa de circuito inovadora, desenvolvida com materiais avançados, está revolucionando a eficiência energética em dispositivos eletrônicos.",
+        "url": "https://exemplo.com/nova-placa-circuito",
+        "urlToImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-23T09:45:00Z",
+        "source": {
+          "id": "fonte2",
+          "name": "Electronics Today"
+        }
+      },
+      {
+        "author": "Podcast Tech Talks",
+        "title": "Episódio Especial: O Futuro da Tecnologia em Nosso Podcast",
+        "description": "No último episódio, discutimos as tendências tecnológicas emergentes e como elas impactarão nossas vidas nos próximos anos. Não perca!",
+        "url": "https://exemplo.com/podcast-tech-talks",
+        "urlToImage": "https://images.unsplash.com/photo-1485579149621-3123dd979885?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-24T11:15:00Z",
+        "source": {
+          "id": "fonte3",
+          "name": "Tech Talks Podcast"
+        }
+      },
+      {
+        "author": "Redes Sociais Today",
+        "title": "Novas Funcionalidades Chegam às Redes Sociais: O Que Esperar",
+        "description": "As principais plataformas de redes sociais estão lançando atualizações emocionantes. Descubra as novas funcionalidades que estão por vir!",
+        "url": "hahahah",
+        "urlToImage": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-25T14:00:00Z",
+        "source": {
+          "id": "fonte4",
+          "name": "Social Media Insights"
+        }
+      },
+      {
+        "author": "Tech Hardware",
+        "title": "Últimas Inovações em Processadores: Mais Rápidos e Eficientes",
+        "description": "As empresas líderes em tecnologia estão competindo para lançar processadores mais rápidos e eficientes. Conheça as últimas inovações.",
+        "url": "https://exemplo.com/inovacoes-processadores",
+        "urlToImage": "https://plus.unsplash.com/premium_photo-1681426687411-21986b0626a8?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-26T10:30:00Z",
+        "source": {
+          "id": "fonte5",
+          "name": "Hardware News"
+        }
+      },
+      {
+        "author": "Data Centers Weekly",
+        "title": "Expansão de Servidores: Atendendo à Crescente Demanda Digital",
+        "description": "A crescente demanda por serviços digitais está impulsionando a expansão massiva de servidores em data centers ao redor do mundo.",
+        "url": "https://exemplo.com/expansao-servidores",
+        "urlToImage": "https://plus.unsplash.com/premium_photo-1682146029185-198922bd8350?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-27T12:45:00Z",
+        "source": {
+          "id": "fonte6",
+          "name": "Data Center Insights"
+        }
+      },
+      {
+        "author": "Java Developer",
+        "title": "Novidades no Mundo Java: Lançamentos e Atualizações",
+        "description": "A comunidade Java está animada com os últimos lançamentos e atualizações. Saiba mais sobre as novidades no mundo Java.",
+        "url": "https://exemplo.com/novidades-java",
+        "urlToImage": "https://plus.unsplash.com/premium_photo-1661337187332-4b1beffc7a08?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-28T15:00:00Z",
+        "source": {
+          "id": "fonte7",
+          "name": "Java Weekly"
+        }
+      }
+      
+    ]
+  }
+  

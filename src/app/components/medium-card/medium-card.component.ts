@@ -1,5 +1,7 @@
 import { Component, Input, OnInit } from '@angular/core';
 import { NewsServiceService } from 'src/app/services/news.service.service';
+import { NewsMockService } from 'src/app/services/news-mock.service';
+
 
 @Component({
   selector: 'app-medium-card',
@@ -12,14 +14,15 @@ export class MediumCardComponent implements OnInit {
   newsData: any;
   newsDisplayed: number = 3;
 
-  constructor(private newsServiceService: NewsServiceService ) { }
+  //constructor(private newsServiceService: NewsServiceService ) { }
+  constructor (private newsMockService: NewsMockService) {}
 
   ngOnInit(): void {
     this.loadNews();
   }
 
   loadNews() {
-    this.newsServiceService.getNews().subscribe(data => {
+    this.newsMockService.getNews().subscribe(data => {
       this.newsData = data;
       this.newsList = data.articles;
     });

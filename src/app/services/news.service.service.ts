@@ -30,12 +30,12 @@ export class NewsServiceService {
   }
 
   getNews(): Observable<any> {
-    console.log(this.url); 
+    
     return this.httpClient.get(this.url).pipe(retry(2));
   }
 
   getNewsTopHeadlines():Observable<any> {
-    console.log("URL TOP", this.urlTop); 
+    
     return this.httpClient.get(this.urlTop).pipe(retry(2));
   }
  
