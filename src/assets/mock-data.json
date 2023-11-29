@@ -18,7 +18,7 @@
         "title": "Nova Placa de Circuito Promete Maior Eficiência Energética",
         "description": "Uma placa de circuito inovadora, desenvolvida com materiais avançados, está revolucionando a eficiência energética em dispositivos eletrônicos.",
         "url": "https://exemplo.com/nova-placa-circuito",
-        "urlToImage": "https://images.unsplash.com/photo-1518770660439-4636190af475?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "urlToImage": "https://images.unsplash.com/photo-1580584126903-c17d41830450?q=80&w=1939&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "publishedAt": "2023-11-23T09:45:00Z",
         "source": {
           "id": "fonte2",
@@ -84,7 +84,20 @@
           "id": "fonte7",
           "name": "Java Weekly"
         }
-      }
+      },
+      
+      {
+        "author": "Desenvolvedor Remoto",
+        "title": "Programadores Celebram Avanço Tecnológico para Trabalho Home Office",
+        "description": "Um novo avanço tecnológico está transformando a forma como os programadores trabalham em casa. A inovação promete otimizar a produtividade e a colaboração em equipes remotas.",
+        "url": "https://exemplo.com/avanco-tecnologico-home-office",
+        "urlToImage": "https://plus.unsplash.com/premium_photo-1683140655656-20448abc55da?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "publishedAt": "2023-11-29T10:30:00Z",
+        "source": {
+        "id": "fonte1",
+        "name": "TechNews Today"
+        }
+  }
       
     ]
   }

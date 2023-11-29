@@ -15,6 +15,4 @@ export class NewsMockService {
     return this.http.get(this.mockDataUrl);
   }
   
-    
-  
 }

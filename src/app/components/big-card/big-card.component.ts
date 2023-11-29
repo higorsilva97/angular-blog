@@ -17,7 +17,7 @@ export class BigCardComponent implements OnInit {
   newsData: any;
   newsDataTop: any;
 
-  numNews: number = 1;
+  numNews: number = 7;
 
  //constructor(private newsServiceService: NewsServiceService) { } - Service API NEWS
   constructor(private newsMockService: NewsMockService) {}
