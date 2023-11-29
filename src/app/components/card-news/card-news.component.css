@@ -5,73 +5,98 @@
     margin-top: 20px;
     width: 850px;
     min-width: 850px;
-    padding-top: 20px;
-    padding-left: 20px;
-    transition: 0.5s;
+    padding: 20px;
+    transition: background-color 0.5s, box-shadow 0.5s;
     border: 1px solid var(--cor-borda);
     margin-right: 15px;
-}
-
-.blog__container-news:hover {
+  }
+  
+  .blog__container-news:hover {
     background-color: var(--cor-primaria);
     box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
-}
-
-.news-title > h1 {
+  }
+  
+  .news-title > h1 {
     font-weight: 900;
     margin-top: 10px;
-    background-color:var(--cor-primaria);
+    background-color: var(--cor-primaria);
     text-transform: uppercase;
-    transition-duration: 0.9s;
-    transition-timing-function: ease-in-out;
-}
-
-.news-title > h1:hover {
+    transition: text-decoration 0.9s ease-in-out;
+  }
+  
+  .news-title > h1:hover {
     text-decoration: underline;
-}
-
-.author {
+  }
+  
+  .author {
     display: flex;
     align-items: center;
     background-color: var(--cor-primaria);
     margin-top: 20px;
-}
-
-.author > img {
+  }
+  
+  .author > img {
     width: 40px;
     margin-right: 10px;
-}
-
-.blog__container-news > p {
+  }
+  
+  .blog__container-news > p {
     font-size: 10px;
     color: var(--cor-texto);
     background-color: var(--cor-primaria);
     padding-left: 50px;
-}
-
-button {
+  }
+  
+  button {
     background-color: var(--cor-detalhe);
     color: var(--cor-primaria);
     width: 250px;
     height: 50px;
-    font-size: 1.5rem; 
+    font-size: 1.5rem;
     border-radius: 5px;
     margin-top: 60px;
     margin-left: 30%;
-    border: none; 
+    border: none;
     cursor: pointer;
-    transition: background-color 0.3s, color 0.3s; 
+    transition: background-color 0.3s, color 0.3s;
     outline: none;
     margin-bottom: 80px;
-}
-
-
-button:focus {
-    box-shadow: 0 0 5px var(--cor-detalhe); 
-}
-
-
-button:hover {
-    background-color: #1254aa; 
-    color: var(--cor-primaria); 
-}
+  }
+  
+  button:focus {
+    box-shadow: 0 0 5px var(--cor-detalhe);
+  }
+  
+  button:hover {
+    background-color: #1254aa;
+    color: var(--cor-primaria);
+  }
+  
+  @media screen and (max-width: 800px) {
+    .blog__container-news {
+      width: 100%;
+      min-width: 400px;
+    }
+  }
+  
+  @media screen and (max-width: 400px) {
+    .blog__container-news {
+      height: fit-content;
+      min-height: 240px;
+      margin-top: 10px;
+      width: 365px;
+      min-width: 0px;
+      padding: 10px;
+      padding-bottom: 30px;
+    }
+  
+    .news-title > h1 {
+      font-size: 30px;
+      margin-top: 2px;
+    }
+  
+    button {
+      width: 150px;
+    }
+  }
+  

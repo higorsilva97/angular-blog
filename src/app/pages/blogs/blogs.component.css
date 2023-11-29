@@ -11,6 +11,7 @@
   margin-left: 300px;
   margin-top: 32px;
 }
+
 .blog__container-others {
   height: 100%;
   width: 25%;
@@ -18,33 +19,32 @@
   margin-left: 38px;
 }
 
-.top{
+.top {
   width: 100%;
   height: 50px;
-  background-color: var(--cor-detalhe); 
+  background-color: var(--cor-detalhe);
 }
 
-.title__others{
+.title__others {
   width: 100%;
   height: 70px;
   margin-left: 9px;
   display: flex;
 }
 
-.title__others > p{
+.title__others > p {
   margin-left: 12px;
   font-size: 20px;
   color: var(--cor-texto);
 }
 
-.title__others > p > span{
+.title__others > p > span {
   font-weight: 800;
   font-size: 32px;
   color: var(--cor-titulo);
-  
 }
 
-#icone{
+#icone {
   height: 100%;
   width: 20px;
   background-color: var(--cor-detalhe);
@@ -73,4 +73,84 @@
   height: 28px;
   background-color: var(--cor-primaria);
   font-weight: 800;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .blog__body {
+    display: block;
+    width: 90%;
+    margin-left: auto;
+    margin-top: 32px;
+  }
+
+  .blog__container-others,
+  .blog__section-title {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .blog__body {
+    display: block;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 32px;
+  }
+
+  .blog__container-others {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .container__blogs {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .blog__body {
+    display: flex;
+    width: 100%;
+    margin-left: 0;
+    margin-top: 0;
+  }
+
+  .blog__section-title {
+    height: 50px;
+    background-color: var(--cor-primaria);
+    display: flex;
+    align-items: center;
+    padding-left: 300px;
+  }
+
+  .blog__section-title > h1 {
+    display: inline;
+    background-color: var(--cinza-claro);
+    color: var(--cor-primaria);
+    margin-left: 0;
+    padding-right: 100px;
+    font-size: 32px;
+    padding: 0;
+    display: none;
+  }
+
+  .icon-title,
+  .title__others {
+    display: none;
+  }
+
+  .blog__container-others {
+    height: 100%;
+    width: 25%;
+    margin-top: 20px;
+    margin-left: 38px;
+  }
+
+  .blog__card-news {
+    width: 92%;
+    margin-left: 10px;
+    margin-right: auto;
+  }
 }

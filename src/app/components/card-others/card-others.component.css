@@ -1,49 +1,60 @@
-.container__card-others{
-    height: 120px;
-    min-height: 120px;
-    display: flex;
-    flex-direction: row;
-    margin-top: 10px; 
-    transition: 0.3s;
-    
+.container__card-others {
+  height: 120px;
+  min-height: 120px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+  transition: 0.3s;
 }
 
-.container__card-others:hover{
-    background-color: var(--cor-primaria); 
-    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
-    border-bottom: 3px solid var(--cor-detalhe);
-}
-.img__card-others{
-    width: 120px;
-    height: 117px;
-    margin-right: 10px;
+.container__card-others:hover {
+  background-color: var(--cor-primaria);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid var(--cor-detalhe);
 }
 
-.img__card-others > img{
-   width: 100px;
-   height: 100px;
-   margin-top: 10px;
-   margin-left: 10px;
+.img__card-others {
+  width: 120px;
+  height: 117px;
+  margin-right: 10px;
 }
 
-.text__container{
-    display: flex;
-    width: 200px;
-    flex-direction: column;
-    margin-top: 10px; 
+.img__card-others > img {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
 }
 
-.text__container > h4{
-    font-weight: 700;
-    font-size: 12px;
-    margin-bottom: 10px;
-    
+/* Contêiner de texto */
+.text__container {
+  display: flex;
+  width: 200px;
+  flex-direction: column;
+  margin-top: 10px;
 }
 
+.text__container > h4 {
+  font-weight: 700;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
 
 .text__container > p {
-    font-size: 14px;
-    font-weight: 900;
-    text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+}
+
+@media screen and (max-width: 800px) {
+}
+
+@media screen and (max-width: 400px) {
+  /* Estilos para telas com largura máxima de 400px */
+  /* Oculta os cards abaixo de 400px de largura */
+  .container__card-others {
+    display: none;
+  }
+}

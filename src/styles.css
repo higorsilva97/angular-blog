@@ -25,4 +25,33 @@ a{
     text-decoration: none;
 }
 
+
+ @media screen and (min-width: 768px) and (max-width: 1023px) {
+    /* Estilos para telas com largura entre 768px e 1023px */
+    
+    
+}
+
+
+@media screen and (max-width: 800px) {
+    /* Estilos para telas com largura máxima de 767px */
+    
+}
+
+
+@media screen and (max-width: 400px) {
+    
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        color: #212530;
+        font-family:  'Barlow', sans-serif;
+        max-width: 380px;
+    }
+
+
+   
+  }
+
  
